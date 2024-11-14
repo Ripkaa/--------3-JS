@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Задание 2: Проверка времени еды</h1>
+    <p>Напишите функцию isEatTime. Она должна возвращать true, если экземпляр Date, в контексте которой она вызван, задает время для еды, и false, в противном случае. Временем для еды считайте время с 6 до 6-30 часов, с 12 до 13, с 19 до 20.</p>
+
+    <label for="inputTime">Введите дату и время:</label>
+    <input type="time" id="inputTime">
+    <button onclick="checkEatTime()">Проверить</button>
+
+    <h2>Результат:</h2>
+    <p id="eatTimeResult">Здесь будет отображен результат.</p>
+
+    <script src="task2.js"></script>
+</body>
+</html>
